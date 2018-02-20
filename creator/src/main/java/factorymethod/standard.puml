@@ -1,0 +1,35 @@
+@startuml
+
+
+Product <|-- ConcreteProduct
+
+Creator <|-- ConcreteCreator
+
+ConcreteProduct <..left..... ConcreteCreator
+
+
+
+
+class Product{
+}
+
+class ConcreteProduct{
+}
+
+class Creator{
++ FactoryMethod()
++ AnOperation()
+}
+note right of Creator
+prodcut = FactoryMethod()
+end note
+
+class ConcreteCreator{
++ FactoryMethod()
+}
+note right of ConcreteCreator
+return new ConcreteProduct
+end note
+
+
+@enduml

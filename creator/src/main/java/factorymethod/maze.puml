@@ -1,0 +1,52 @@
+@startuml
+
+Room <|-- RoomWithABomb
+Room <|-- EnchantedRoom
+Door <|-- DoorNeedingSpell
+Wall <|-- BombedWall
+
+MazeGame <|--- EnchantedMazeGame
+MazeGame <|--- BombedMazeGame
+
+MazeGame o-up-> Maze
+MazeGame -left-> Room
+MazeGame -left-> Door
+MazeGame -left-> Wall
+
+
+EnchantedMazeGame ....up.> EnchantedRoom
+EnchantedMazeGame ....up.> DoorNeedingSpell
+BombedMazeGame ....up.> RoomWithABomb
+BombedMazeGame ....up.> BombedWall
+
+class MazeGame{
+}
+
+class EnchantedMazeGame{
+}
+
+class BombedMazeGame{
+}
+
+class Maze{
+}
+
+class Room{
+}
+class Door{
+}
+
+class Wall{
+}
+
+class RoomWithABomb{
+}
+
+class BombedWall{
+}
+
+class EnchantedRoom{
+}
+class DoorNeedingSpell{
+}
+@enduml

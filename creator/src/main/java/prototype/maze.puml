@@ -1,0 +1,48 @@
+@startuml
+
+MazeFactory <- MazeGame
+
+MazeFactory <|-- MazePrototypeFactory
+
+MazeFactory o--left-> Room
+MazeFactory o--left-> Door
+MazeFactory o--left-> Wall
+
+
+
+MapSite <|-- Room
+MapSite <|-- Door
+MapSite <|-- Wall
+
+
+class MazeGame{
++ createMaze(MazeFactory mazeFactory)
+}
+
+abstract MapSite{
+}
+class Room{
+}
+
+class Door{
+}
+
+class Wall{
+}
+
+class MazePrototypeFactory{
++ Construct(Maze _prototypeMaze, Room _prototypeRoom, Door _prototypeDoor, Wall _prototypeWall)
++ makeMaze()
++ makeRoom(int roomNumber)
++ makeDoor(Room r1, Room r2)
++ makeWall()
+}
+
+class MazeFactory{
++ makeMaze()
++ makeRoom(int roomNumber)
++ makeDoor(Room r1, Room r2)
++ makeWall()
+}
+
+@enduml

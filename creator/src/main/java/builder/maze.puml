@@ -1,0 +1,23 @@
+@startuml
+
+Maze o-> MazeBuilder
+MazeBuilder .> Maze
+
+class Maze{
++ createMaze()
+}
+
+note left of Maze
+ for all objects in structure {
+    builder -> buildPart()
+ }
+end note
+
+class MazeBuilder{
++ buildMaze()
++ buildRoom()
++ buildDoor()
++ getResult()
+}
+
+@enduml

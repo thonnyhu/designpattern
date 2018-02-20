@@ -1,0 +1,12 @@
+@startuml
+
+
+class Singleton{
+static instance()
+SingletonOperation()
+GetSingletonData()
+
+static uniqueInstance
+singletonData
+}
+@enduml

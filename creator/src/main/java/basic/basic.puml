@@ -1,0 +1,51 @@
+@startuml
+
+
+interface MapSite {
+    + void enter()
+}
+
+MapSite *-- Room
+MapSite <|-- Room
+MapSite <|-- Door
+MapSite <|-- Wall
+
+Room *-- Maze
+
+
+
+class Door {
+- Room root1,root2;
+- Boolean isOpen;
++ Room otherSideFrom(Room roomWithABomb);
++ void enter();
+}
+
+class Wall {
++ Wall();
++ enter();
+}
+
+class Room {
+- Map<Direction,MapSite>  _sides
+- int _rootNumber;
++ getSide(Direction direction);
++ setSide(Direction direction, MapSite mapSite);
++ void enter();
+}
+
+class Maze {
+- List<Room> roots
+
++ addRoom();
++ roomNo();
+}
+
+enum Direction {
+EAST
+WEST
+NORTH
+SOUTH
+}
+
+@enduml

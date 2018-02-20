@@ -1,0 +1,66 @@
+@startuml
+
+MazeFactory <- MazeGame
+
+
+MazeFactory o---> Room
+MazeFactory o---> Door
+MazeFactory o---> Wall
+
+
+
+MapSite <|-up-- Room
+MapSite <|-up-- Door
+MapSite <|-up-- Wall
+
+
+class MazeGame{
++ createMaze(MazeFactory mazeFactory)
+}
+
+abstract MapSite{
+}
+class Room{
+}
+
+class Door{
+}
+
+class Wall{
+}
+
+'second
+Door <|-- EnchantedDoor
+EnchantedDoor <---o EnchantedMazeFactory
+
+class EnchantedDoor{
+}
+MazeFactory <|-- EnchantedMazeFactory
+class EnchantedMazeFactory{
++ makeDoor(Room r1, Room r2)
+}
+'third
+Wall <|-- BombedWall
+Room <|-- RoomWithABomb
+BombedWall <---o BombedMazeFactory
+RoomWithABomb <---o BombedMazeFactory
+
+class BombedWall{
+}
+class RoomWithABomb{
+}
+MazeFactory <|-- BombedMazeFactory
+class BombedMazeFactory{
++ makeWall()
++ makeRoom(int rootNumber)
+}
+
+
+class MazeFactory{
++ makeMaze()
++ makeRoom(int roomNumber)
++ makeDoor(Room r1, Room r2)
++ makeWall()
+}
+
+@enduml
