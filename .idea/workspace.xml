@@ -2,10 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b189851e-b334-440d-9463-cad9f887fce9" name="Default" comment="kk">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Builder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Guitar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/GuitarSpec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Inventory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Type.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Wood.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/firstgeneration/Guitar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/firstgeneration/Inventory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Builder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Guitar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/GuitarSpec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Inventory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Type.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Wood.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Builder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Guitar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Inventory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Type.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Wood.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/thirdgeneration/Builder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/thirdgeneration/Guitar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/thirdgeneration/Inventory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/thirdgeneration/Type.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/src/main/java/guitarshop/thirdgeneration/Wood.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/creator/target/" />
+    <ignored path="$PROJECT_DIR$/oo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MazePrototypeFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/creator/src/main/java/prototype/MazePrototypeFactory.java">
+      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Inventory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="113" lean-forward="false" selection-start-line="15" selection-start-column="113" selection-end-line="15" selection-end-column="113" />
+            <state relative-caret-position="196">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,94 +56,95 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnchantedMazeGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/creator/src/main/java/factorymethod/EnchantedMazeGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MazeGame.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/creator/src/main/java/factorymethod/MazeGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="maze.puml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/creator/src/main/java/prototype/maze.puml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="standard.puml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/creator/src/main/java/singleton/standard.puml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="maze.puml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/maze.puml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Maze.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/creator/src/main/java/basic/Maze.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#154#160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wall.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/creator/src/main/java/basic/Wall.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Door.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/creator/src/main/java/basic/Door.java">
+      <file leaf-file-name="Builder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Builder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/creator/src/main/java/basic/Room.java">
+      <file leaf-file-name="Type.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Type.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Builder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Builder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Inventory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wood.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Wood.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuitarSpec.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/GuitarSpec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Guitar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Guitar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuitarSpec.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/GuitarSpec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Guitar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Guitar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="80" lean-forward="true" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,8 +158,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="UML Class" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -146,6 +177,9 @@
       <find>ConcreteBuilder</find>
       <find>.</find>
       <find>Client</find>
+      <find>builder</find>
+      <find>backWood</find>
+      <find>searchGuitar</find>
     </findStrings>
     <replaceStrings>
       <replace>MapSite</replace>
@@ -156,6 +190,11 @@
       <replace>MazeBuilder</replace>
       <replace>-</replace>
       <replace>MazeGame</replace>
+      <replace>model</replace>
+      <replace>type</replace>
+      <replace>backWood</replace>
+      <replace>topWood</replace>
+      <replace>guitarSpec</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/creator/src/main/java/abstractfactory</dir>
@@ -182,25 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/creator/pom.xml" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/basic/MapSite.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/basic/Direction.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/basic/basic.puml" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/Direction.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/Door.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/AbstractFactory.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/maze/Wall.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/enchanted/Door.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/maze/Maze.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/maze/MazeFactory.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/enchanted/MazeFactory.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/enchanted/Room.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/enchanted/Maze.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/enchanted/RoomWithABomb.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/enchanted/Wall.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/enchanted/BombedWall.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/Wall.java" />
-        <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/bombed/EnchantedMazeFactory.java" />
         <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/bombed/BombedMazeFactory.java" />
         <option value="$PROJECT_DIR$/creator/src/main/java/builder/standard.puml" />
         <option value="$PROJECT_DIR$/creator/src/main/java/builder/maze.puml" />
@@ -233,6 +253,25 @@
         <option value="$PROJECT_DIR$/creator/src/main/java/abstractfactory/maze.puml" />
         <option value="$PROJECT_DIR$/creator/src/main/java/prototype/maze.puml" />
         <option value="$PROJECT_DIR$/creator/src/main/java/singleton/standard.puml" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/firstgeneration/firstgeneration.java" />
+        <option value="$PROJECT_DIR$/oo/pom.xml" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/firstgeneration/Guitar.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/firstgeneration/Inventory.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/secondgeneration.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Builder.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Type.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Wood.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Guitar.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Inventory.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/thirdgeneration/Type.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/thirdgeneration/Inventory.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Wood.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Inventory.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Guitar.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/GuitarSpec.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Inventory.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/GuitarSpec.java" />
+        <option value="$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Guitar.java" />
       </list>
     </option>
   </component>
@@ -276,6 +315,61 @@
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="oo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="oo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="oo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="oo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="oo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guitarshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="oo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guitarshop" type="462c0819:PsiDirectoryNode" />
+              <item name="fifthgeneration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="oo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guitarshop" type="462c0819:PsiDirectoryNode" />
+              <item name="fourthgeneration" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -300,8 +394,11 @@
       <recent name="abstractfactory.maze" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration" />
+      <recent name="$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration" />
+      <recent name="$PROJECT_DIR$/oo/src/main/java/guitarshop/thirdgeneration" />
+      <recent name="$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration" />
       <recent name="$PROJECT_DIR$/creator/src/main/java/abstractfactory/enchanted" />
-      <recent name="$PROJECT_DIR$/creator/src/main/java/abstractfactory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -399,25 +496,27 @@
       <option name="presentableId" value="Default" />
       <updated>1519018483578</updated>
       <workItem from="1519018485237" duration="28857000" />
-      <workItem from="1522992039781" duration="27000" />
+      <workItem from="1522992039781" duration="4816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28884000" />
+    <option name="totallyTimeSpent" value="33673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4717286" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -472,197 +571,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/basic/Wall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/basic/Door.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/basic/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/factorymethod/MazeGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/basic.Room">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>basic.Room</OriginalElement>
-          <nodes>
-            <node x="" y="">basic.Room</node>
-            <node x="" y="">basic.MapSite</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="50.0" y="55.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JavaScript-modules-diagram//Users/Mirana/home/workspace/idea/designpattern/creator/src/main/java/basic">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/creator/src/main/java/basic</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="465.0" y="274.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/basic">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>basic</OriginalElement>
-          <nodes>
-            <node x="150.0" y="311.0">basic.Maze</node>
-            <node x="162.0" y="102.0">basic.Room</node>
-            <node x="449.0" y="113.5">basic.Door</node>
-            <node x="0.0" y="311.0">basic.Direction</node>
-            <node x="0.0" y="146.5">basic.Wall</node>
-            <node x="224.5" y="0.0">basic.MapSite</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="basic.Wall" target="basic.MapSite">
-              <point x="0.0" y="-37.5" />
-              <point x="71.0" y="77.0" />
-              <point x="248.16666666666666" y="77.0" />
-              <point x="-47.33333333333334" y="26.0" />
-            </edge>
-            <edge source="basic.Room" target="basic.MapSite">
-              <point x="0.0" y="-82.0" />
-              <point x="0.0" y="26.0" />
-            </edge>
-            <edge source="basic.Door" target="basic.MapSite">
-              <point x="0.0" y="-70.5" />
-              <point x="571.0" y="77.0" />
-              <point x="342.83333333333337" y="77.0" />
-              <point x="47.33333333333337" y="26.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-69.0" y="117.0" />
-          <SelectedNodes>
-            <node>basic.Maze</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/basic/MapSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/basic/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/AbstractFactory.java" />
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/abstractFactory.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/Wall.java" />
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/bombed/Maze.java" />
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/bombed/Direction.java" />
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/bombed/MapSite.java" />
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/MapSite.java" />
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/Door.java" />
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/basic/basic.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/builder/maze.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/builder/standard.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/builder/MazeBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/Maze.java" />
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/Room.java" />
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/bombed/BombedWall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/Direction.java" />
     <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/bombed/RoomWithABomb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -818,7 +726,7 @@
     <entry file="file://$PROJECT_DIR$/creator/src/main/java/abstractfactory/maze.puml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="7" />
+          <caret line="29" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -834,14 +742,14 @@
     <entry file="file://$PROJECT_DIR$/creator/src/main/java/singleton/standard.puml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/creator/src/main/java/prototype/MazePrototypeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="0">
           <caret line="15" column="113" lean-forward="false" selection-start-line="15" selection-start-column="113" selection-end-line="15" selection-end-column="113" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -859,9 +767,233 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/creator/src/main/java/factorymethod/MazeGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="326">
+          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/secondgeneration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Wood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/firstgeneration/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/firstgeneration/Guitar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="62" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="11" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Guitar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/secondgeneration/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/thirdgeneration/Wood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/thirdgeneration/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/thirdgeneration/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding>
+            <element signature="e#993#1001#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/thirdgeneration/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/thirdgeneration/Guitar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Wood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Wood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/Guitar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="80" lean-forward="true" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fourthgeneration/GuitarSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/Guitar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oo/src/main/java/guitarshop/fifthgeneration/GuitarSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
