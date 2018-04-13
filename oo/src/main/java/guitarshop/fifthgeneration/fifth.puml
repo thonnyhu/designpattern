@@ -1,0 +1,59 @@
+@startuml
+
+Enum Builder{
+    FENDER,
+    MARTIN,
+    GIBSON,
+    COLLINS,
+    OLSON,
+    RYAN,
+    PRS,
+    ANY;
+}
+
+Enum Type{
+    ACOUSTIC,
+    ELECTRIC
+}
+
+Enum Wood{
+    INDIAN_ROSEWOOD,
+    BRAZILIAN_ROSEWOOD,
+    MAHOGANY,
+    MAPLE,
+    COCOBOLO,
+    CEDAR,
+    ADIRONDACK,
+    ALDER,
+    SITKA;
+}
+
+Class GuitarSpec{
+    - Builder builder;
+    - Type type;
+    - Wood backWood ,topWood;
+    - String model;
+    + GuitarSpec()
+    + boolean match(GuitarSpec otherSpec);
+}
+
+Class Guitar{
+    - String serialNumber;
+    - double price;
+    + Guitar(String serialNumber, double price,GuitarSpec guitarSpec);
+}
+Class Inventory{
+    - List<Guitar> guitars;
+    + void addGuitar(String serialNumber, double price,GuitarSpec guitarSpec);
+    + Guitar getGuitar();
+    + List<Guitar> search(GuitarSpec guitarSpec)
+}
+
+
+Inventory -right-> Guitar
+Inventory -right-> GuitarSpec
+Guitar --> GuitarSpec
+GuitarSpec --> Builder
+GuitarSpec --> Type
+GuitarSpec --> Wood
+@enduml

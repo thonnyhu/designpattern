@@ -43,6 +43,7 @@ public class Inventory {
                 continue;
             if (searchGuitar.getTopWood() != next.getTopWood())
                 continue;
+            return next;
         }
         return null;
     }

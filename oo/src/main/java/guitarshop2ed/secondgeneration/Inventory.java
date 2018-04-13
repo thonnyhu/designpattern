@@ -1,4 +1,4 @@
-package guitarshop2ed.firstgeneration;
+package guitarshop2ed.secondgeneration;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -34,31 +34,15 @@ public class Inventory {
         return null;
     }
 
-    public List<Guitar> search(GuitarSpec guitarSpec) {
-        List<Guitar> list = new ArrayList<Guitar>();
+    public List<Instrument> search(InstrumentSpec otherSpec) {
+        List<Instrument> list = new ArrayList<Instrument>();
         for (Iterator<Instrument> i = instruments.iterator(); i.hasNext(); ) {
             Instrument instrument = i.next();
-            if(instrument instanceof Guitar) {
-                GuitarSpec next = (GuitarSpec) instrument.getInstrumentSpec();
-                if (next.match(guitarSpec)) {
-                    list.add((Guitar)instrument);
-                }
+            if(instrument.getInstrumentSpec().match(otherSpec)){
+                list.add(instrument);
             }
         }
         return list;
     }
 
-    public List<Mandolin> search(MandolinSpec mandolinSpec) {
-        List<Mandolin> list = new ArrayList<Mandolin>();
-        for (Iterator<Instrument> i = instruments.iterator(); i.hasNext(); ) {
-            Instrument instrument = i.next();
-            if(instrument instanceof Mandolin) {
-                MandolinSpec next = (MandolinSpec) instrument.getInstrumentSpec();
-                if (next.match(mandolinSpec)) {
-                    list.add((Mandolin) instrument);
-                }
-            }
-        }
-        return list;
-    }
 }

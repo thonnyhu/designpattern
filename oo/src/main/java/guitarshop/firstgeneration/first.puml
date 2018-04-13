@@ -1,0 +1,17 @@
+@startuml
+
+Class Guitar{
+    - String String serialNumber, builder, model, type, backWood, topWood;
+    - double price;
+    + Guitar(String serialNumber, double price,String builder, String model,String type, String backWood, String topWood)
+}
+Class Inventory{
+    - List<Guitar> guitars;
+    + void addGuitar(String serialNumber, double price,String builder, String model,String type, String backWood, String topWood);
+    + Guitar getGuitar();
+    + Guitar search(Guitar guitar)
+}
+
+
+Inventory -right-> Guitar
+@enduml

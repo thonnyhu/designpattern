@@ -1,0 +1,91 @@
+@startuml
+
+Enum Builder{
+    FENDER,
+    MARTIN,
+    GIBSON,
+    COLLINS,
+    OLSON,
+    RYAN,
+    PRS,
+    ANY;
+}
+
+Enum Type{
+    ACOUSTIC,
+    ELECTRIC
+}
+
+Enum Wood{
+    INDIAN_ROSEWOOD,
+    BRAZILIAN_ROSEWOOD,
+    MAHOGANY,
+    MAPLE,
+    COCOBOLO,
+    CEDAR,
+    ADIRONDACK,
+    ALDER,
+    SITKA;
+}
+
+Enum Style{
+}
+
+Class InstrumentSpec{
+    - Builder builder;
+    - Type type;
+    - Wood backWood ,topWood;
+    - String model;
+}
+InstrumentSpec -up-> Builder
+InstrumentSpec -up-> Type
+InstrumentSpec -up-> Wood
+Class GuitarSpec{
+    - int numberStrings;
+    + GuitarSpec()
+    + boolean match(GuitarSpec otherSpec);
+}
+
+Class MandolinSpec{
+    - Style style;
+    + MandolinSpec()
+    + boolean match(MandolinSpec otherSpec);
+}
+MandolinSpec -down-> Style
+
+InstrumentSpec <|-- GuitarSpec
+InstrumentSpec <|-- MandolinSpec
+
+Class Instrument{
+    - String serialNumber;
+    - double price;
+    - InstrumentSpec instrumentSpec;
+    + Instrument(String serialNumber, double price,InstrumentSpec instrumentSpec);
+}
+
+
+
+Class Guitar{
+    + Guitar(String serialNumber, double price,GuitarSpec guitarSpec);
+}
+
+Class Mandolin{
+    + Mandolin(String serialNumber, double price,MandolinSpec mandolinSpec);
+}
+
+Instrument <|-- Guitar
+Instrument <|-- Mandolin
+
+Instrument -> InstrumentSpec
+
+Class Inventory{
+    - List<Instrument> guitars;
+    + void addInstrument(String serialNumber, double price,InstrumentSpec guitarSpec);
+    + Instrument getInstrument();
+    + List<Guitar> search(GuitarSpec guitarSpec)
+    + List<Mandolin> search(MandolinSpec mandolinSpec)
+}
+
+Inventory -down-> Instrument
+
+@enduml
