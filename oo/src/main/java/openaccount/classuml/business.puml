@@ -1,0 +1,43 @@
+@startuml
+
+abstract Business{
+    - ProductType productType;
+}
+class NfcAccount {
+}
+class QrCode{
+}
+class Parking{
+}
+class ProQrCode{
+}
+NfcAccount -up-|> Business
+QrCode -up-|> Business
+Parking -up-|> Business
+ProQrCode -up-|> Business
+
+interface BusinessAction<Req extend BaseReq,Res extend BaseRes> {
+    String getUnique(ProductType productType);
+}
+interface Open<OpenReq,OpenRes>{
+    Res open(OpenReq req)
+}
+interface Unregister<UnregisterReq,UnRegisterRes>{
+    UnRegisterRes unregister(UnregisterReq req);
+}
+Open -up-|> BusinessAction
+Unregister -up-|> BusinessAction
+
+NfcAccount -up-|> Open
+QrCode -up-|> Open
+Parking -up-|> Open
+ProQrCode -up-|> Open
+
+Class BusinessActionProcessorContainer{
+    - Map<String,List<Processor>> businessActionProcessors;
+    public List<Processor> getProcessorsByUniqueId();
+}
+
+BusinessAction -> BusinessActionProcessorContainer
+
+@enduml

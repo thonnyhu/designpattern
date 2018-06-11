@@ -1,0 +1,29 @@
+@startuml
+
+abstract class AccountInitProcessor{
+    ~ boolean memberInit();
+    ~ boolean relationInit();
+    ~ boolean cardInfoInit();
+    ~ boolean bankcardOrderInit();
+    + boolean process(Req ,Res);
+}
+
+interface IProcessor{
+}
+
+interface CardInfoInit{
+}
+
+interface BankcardOrderInit{
+}
+
+class StandardAccountInit{
+}
+
+StandardAccountInit -up-|> AccountInitProcessor
+AccountInitProcessor -up--|> IProcessor
+AccountInitProcessor -up--|> CardInfoInit
+AccountInitProcessor -up--|> BankcardOrderInit
+
+
+@enduml

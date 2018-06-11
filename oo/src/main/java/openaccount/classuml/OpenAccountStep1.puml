@@ -1,0 +1,40 @@
+@startuml
+
+interface ProductTypeBusiness{
+    + ProductType getProductType();
+}
+
+interface OpenOfProductType<Req extend BaseReq,Res extend BaseRes> {
+    void open(Req  req, Res res);
+    + ProductType getProductType();
+}
+
+
+class NfcAccountOpen<NfcOpenAccountReq,NfcOpenAccountRes>{
+    + void open(NfcOpenAccountReq  req, NfcOpenAccountRes res));
+    + ProductType getProductType();
+}
+
+OpenOfProductType -up-|> ProductTypeBusiness
+NfcAccountOpen -up-|> OpenOfProductType
+
+
+Class ProcessorChain {
+    List<Processor> processors;
+    + void add(Processor processor);
+    + void addAll(List<Processor> processors>;
+}
+
+interface Processor<Req extend BaseReq,Res extend BaseRes>{
+    + boolean process(Req req,Res res);
+}
+
+abstract class BusinessContainer{
+    - Map<ProductType,List<Processor>> processors;
+    ~ boolean sync();
+}
+
+BusinessContainer -> Processor
+
+
+@enduml

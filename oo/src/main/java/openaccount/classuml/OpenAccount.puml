@@ -1,0 +1,42 @@
+@startuml
+
+Class ProcessorChain {
+    List<Processor> processors;
+    + void add(Processor processor);
+    + void addAll(List<Processor> processors>;
+}
+
+interface Processor<Req extend BaseReq,Res extend BaseRes>{
+    + boolean process(Req req,Res res);
+}
+
+abstract class BusinessContainer{
+    - Map<ProductType,List<Processor>> processors;
+    ~ boolean sync();
+}
+
+BusinessContainer -> Processor
+
+interface ProductTypeBusiness{
+
+}
+
+interface ProductTypeOpen {
+
+}
+
+Abstract AbstractAccountOpen{
+
+
+}
+
+class NfcAccountOpen{
+    + void open(BaseReq  req, BaseRes res));
+    ~ void exceptionConvert();
+}
+
+ProductTypeOpen -up-|> ProductTypeBusiness
+AbstractAccountOpen -up-|> ProductTypeOpen
+NfcAccountOpen -up-|> AbstractAccountOpen
+
+@enduml

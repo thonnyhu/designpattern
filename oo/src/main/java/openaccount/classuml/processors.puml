@@ -1,0 +1,45 @@
+@startuml
+
+interface IProcessor<Req extends BaseReq, Res extends BaseRes> {
+    boolean process (Req req,Res res);
+}
+
+class CardInfoOpenedCheckProcessor{
+}
+
+class OpenApplySaveProcessor{
+}
+
+class OpenBankcardCheckProcessor{
+}
+
+class RealNameInfoCheckProcessor{
+}
+
+class BankcardSignedQDBCheckProcessor{
+}
+
+class RiskCheckProcessor{
+}
+
+class TransportBusinessCheckProcessor{
+}
+
+class BankRouteChooseProcessor{
+
+}
+
+abstract class AccountInitProcessor{
+}
+
+CardInfoOpenedCheckProcessor -up-|> IProcessor
+OpenApplySaveProcessor -up-|> IProcessor
+OpenBankcardCheckProcessor -up-|> IProcessor
+RealNameInfoCheckProcessor -up-|> IProcessor
+BankcardSignedQDBCheckProcessor -up-|> IProcessor
+RiskCheckProcessor -up-|> IProcessor
+TransportBusinessCheckProcessor -up-|> IProcessor
+BankRouteChooseProcessor -up-|> IProcessor
+AccountInitProcessor -up-|> IProcessor
+
+@enduml

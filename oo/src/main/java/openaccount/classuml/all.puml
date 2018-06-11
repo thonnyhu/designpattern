@@ -1,0 +1,98 @@
+@startuml
+
+enum ProductType{
+    NFC,
+    QRCODE,
+    PARKING,
+    PROCODE,
+    TRAFFIC
+}
+
+interface ProductTypeBusiness{
+    + ProductType getProductType();
+}
+
+interface ProductTypeAction<Req extend BaseReq,Res extend BaseRes> {
+    void doAction(Req  req, Res res);
+    + ProductType getProductType();
+}
+
+
+class NfcAccountOpen<NfcOpenAccountReq,NfcOpenAccountRes>{
+    + void open(NfcOpenAccountReq  req, NfcOpenAccountRes res));
+    + ProductType getProductType();
+}
+
+ProductTypeAction -up-|> ProductTypeBusiness
+NfcAccountOpen -up-|> ProductTypeAction
+
+
+interface IGlobalConfigChangeListener
+
+class BusinessContainer{
+    - Map<String,List<Processor>> processors;
+}
+
+IGlobalConfigChangeListener --> BusinessContainer
+
+NfcAccountOpen -> BusinessContainer
+
+
+interface Processor<Req extend BaseReq,Res extend BaseRes>{
+    + boolean process(Req req,Res res);
+}
+
+
+
+BusinessContainer -> Processor
+
+class isOpenCardInfo
+class saveOpenApply
+class BankcardCheck
+class RealNameCheck
+class isSignFromQDBCheck
+class RiskInfoCheck
+class TrafficCheck
+class isNeedOpenBankAccount
+class isAlreadyOpened
+Abstract AccountInit{
+    - Member prepareMember();
+    - Relation prepareMember();
+    + AccountInfo init();
+}
+class checkAccountInfo
+
+
+class StandardAccountInit{
+}
+StandardAccountInit --|>  AccountInit
+StandardAccountInit -up-|> InitCardInfo
+StandardAccountInit -|> InitBankcard
+interface InitCardInfo{
+    + CardInfo prepareCardInfo(CardType cardType);
+}
+interface InitBankcard{
+    + List<Bankcard> prepareBankcard();
+}
+
+AccountInit ---|> Processor
+
+
+interface GenerateNo{
+    + String generate();
+}
+
+interface GenerateMtCardNo{
+}
+
+interface GenerateBankCardNo{
+}
+
+GenerateMtCardNo --|> GenerateNo
+GenerateBankCardNo -|> GenerateNo
+
+InitCardInfo --|> GenerateMtCardNo
+InitCardInfo --|> GenerateBankCardNo
+
+
+@enduml
